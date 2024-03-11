@@ -1,0 +1,5 @@
+Testaa pythonin toiminta
+PYTHON_PATH -c "print('Hello, World!')"
+
+koulutuksen toisto
+PYTHON_PATH scripts/rlgames_train.py task=Kaivuri checkpoint=runs/Kaivuri/nn/Kaivuri.pth max_iterations=5000
