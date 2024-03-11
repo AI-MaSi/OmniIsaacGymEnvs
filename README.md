@@ -1,3 +1,8 @@
+Added task Kaivuri can be run with:
+```
+PYTHON_PATH scripts/rlgames_train.py task=Kaivuri
+```
+
 # Omniverse Isaac Gym Reinforcement Learning Environments for Isaac Sim
 
 ## About this repository
