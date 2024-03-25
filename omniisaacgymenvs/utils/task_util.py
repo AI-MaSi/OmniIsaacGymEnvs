@@ -35,6 +35,7 @@ def import_tasks():
     from omniisaacgymenvs.tasks.ball_balance import BallBalanceTask
     from omniisaacgymenvs.tasks.cartpole import CartpoleTask
     from omniisaacgymenvs.tasks.cartpole_camera import CartpoleCameraTask
+    from omniisaacgymenvs.tasks.kaivuri import KaivuriTask
     from omniisaacgymenvs.tasks.crazyflie import CrazyflieTask
     from omniisaacgymenvs.tasks.factory.factory_task_nut_bolt_pick import FactoryTaskNutBoltPick
     from omniisaacgymenvs.tasks.factory.factory_task_nut_bolt_place import FactoryTaskNutBoltPlace
@@ -52,6 +53,7 @@ def import_tasks():
 
     # Mappings from strings to environments
     task_map = {
+        "Kaivuri": KaivuriTask,
         "AllegroHand": AllegroHandTask,
         "Ant": AntLocomotionTask,
         "Anymal": AnymalTask,
